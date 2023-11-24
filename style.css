@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-4055-8f9a-740a43588583/95bae10c-9773-4447-af4e-612a244231bd/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+.heading-netflix {
+    display: inline-block;
+    color: rgb(229, 9, 20);
+    background-color: rgba(61, 51, 51, 0.233);
+    margin: 10px 0px 0px 170px;
+    font-size: 22px;
+}
+.box1 {
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-top: -40px;
+    margin-right: 170px;
+    font-family: sans-serif;
+}
+
+.buttons1 {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.509);
+    border-radius: 3px;
+    padding: 5%;
+    width: 140px;
+    height: 35px;
+}
+
+.buttons2 {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 5px;
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 3px;
+    height: 35px;
+    width: 70px;
+}
+
+.box2 {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.heading1-box2 {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    ;
+    font-size: 2rem;
+    font-weight: 700;
+    font-weight: 900;
+}
+
+.box2>div>h3 {
+    font-family: unset;
+    margin-top: 33px;
+    font-size: 1.8rem;
+}
+
+.box2>div>p {
+    font-family: unset;
+    margin-top: 33px;
+    font-size: 1.5rem;
+}
+
+.mail-address {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#mail-address-box {
+    background-color: rgba(12, 12, 12, 0.508);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 10px;
+    height: 35px;
+    width: 380px;
+}
+
+#mail-address-button {
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 3px;
+    height: 55px;
+    width: 200px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.space1 {
+    background-color: #080808c7;
+    height: 7px;
+    width: 100vw;
+}
+
+.C1 {
+    display: flex;
+    color: white;
+    background-color: #000000;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    width: 100vw;
+    height: 80vh;
+}
+
+.C1-Heading {
+    display: inline-block;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.C1-Heading h3 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.C1-Heading p {
+    margin-left: 155px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.C1-image {
+    display: inline-block;
+    margin: 50px 0px 0px 90px;
+}
+.C1-Background-image{
+    margin: 140px 29px 17px -560px;
+    height: 524px;
+    width: 286;
+    
+}
+.C2 {
+    display: inline-flex;
+    color: white;
+    background-color: #000000;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    width: 100vw;
+    height: 80vh;
+}
+
+.C-2-image {
+    padding: 50px 0px 0px 180px;
+}
+
+.C2-1 {
+    background-color: black;
+    display: inline-flex;
+    margin: 400px 100px 110px -500px;
+    border: 2px solid rgb(190, 186, 186);
+    border-radius: 15px;
+    height: 100px;
+    width: 400px;
+}
+
+.C2-1 img {
+    height: 80px;
+    width: 60px;
+    margin: 15%;
+}
+
+.C2-1-text {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.C2-1-text p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.C2-1-text pre {
+    color: blue;
+}
+
+.C-2-text {
+    margin: 200px 0px 0px 0px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.C-2-text h3 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.C-2-text p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.C3 {
+    display: inline-flex;
+    color: white;
+    background-color: #000000;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    width: 100vw;
+    height: 80vh;
+}
+
+.C3-Heading {
+    display: inline-block;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.C3-Heading h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 60px;
+}
+
+.C3-Heading p {
+    margin-left: 155px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
+.C3-background-image{
+    display: inline-block;
+    margin: 76.4px 0px 0px -508px;
+
+}
+.C3-background-image img{
+    height: 171px;
+    width: 380px;
+}
+
+.C4 {
+    display: inline-flex;
+    color: white;
+    background-color: #000000;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    width: 100vw;
+    height: 80vh;
+}
+
+.C-4-image {
+    padding: 50px 0px 0px 180px;
+}
+
+.C-4-text {
+    margin: 200px 0px 0px 0px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.C-4-text h3 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.C-4-text p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.C5 {
+    display: inline-flex;
+    color: white;
+    background-color: #000000;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    width: 100vw;
+    height: 130vh;
+}
+
+.faq-container {
+
+    margin-top: 4000px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 75vw;
+}
+
+.faq-container h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 10%;
+}
+
+.faq-item {
+
+    padding-bottom: 20px;
+    background-color: rgb(45, 45, 45);
+    height: 58px;
+    width: 75vw;
+}
+
+.question {
+    margin: 10px 40px 30px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.answer {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Style to show/hide the answer when the question is clicked */
+.answer {
+    display: none;
+}
+
+.faq-item.active .answer {
+    display: block;
+}
+
+.question i {
+    margin-top: 18px;
+    float: right;
+    font-size: 40px;
+}
+
+.faq-item.active .question i:before {
+    content: '\f00d';
+
+}
+
+.question i:before {
+    content: '\f067';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+.C51 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.C51 p {
+    font-size: 20px;
+}
+
+#mail-address-box {
+    background-color: rgba(12, 12, 12, 0.508);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 10px;
+    height: 35px;
+    width: 380px;
+}
+
+#mail-address-button {
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 3px;
+    height: 55px;
+    width: 200px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+    height: 500px;
+    font-size: 15px;
+    width: 100vw;
+}
+
+.Questionlast {
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 70px;
+}
+
+.Questionlast>p>a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.rows {
+    display: grid;
+    gap: 20px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 180px;
+    margin-top: 40px;
+
+}
+
+.rows a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.end {
+    margin-left: 180px;
+}
+
+.Language-selcetion {
+    margin-top: 40px;
+}
+
+.selection {
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.India {
+    margin-top: 30px;
+    color: aliceblue;
+}
